@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Drag n Drop</title>
+	<script>
+// 		$(document).ready(function(){
+// 	$("button").click(function(){
+// 	  $("").remove();
+// 	});
+//   });
+	</script>
+	<link rel="stylesheet" href="main.css" />
+</head>
+<body>
+	<div id="app" class="app">
+		<header>
+			<h1>Drag & Drop</h1>
+			<button onClick="window.location.reload();">Reset</button>
+			<!-- <input type="button" value="Reset" id="reset" onclick="reset();" style="width:150px; background-color:black; color:white;">  -->
+			<div class="notification" id="myDIV" style="display: none;">
+				Dropped the item!!
+				</div>
+		</header>
+		
+		<div id="ele" class="lists">
+			
+			<div class="list">
+				<div class="list-item" draggable="true">List item 1</div>
+				<div class="list-item" draggable="true">List item 2</div>
+				<div class="list-item" draggable="true">List item 3</div>
+			</div>
+			<div class="list"></div>
+			<!-- <div class="list"></div> -->
+		</div>
+	
+	</div>
+	
+	<script src="main.js"></script>
+</body>
+
+</html>
